@@ -8,7 +8,7 @@ exit 1
 fi
 
 #choosing a domain to bind to
-echo 'Please choose your domain (type corresponding number, and hit enter): \n1) NORTHAMERICA \n2) EUROPE \n3) REDMOND \n4) SOUTHPACIFIC \n5) Other'
+echo 'Please choose your domain (type corresponding number, and hit enter): \n1) contoso1 \n2) contoso2 \n3) contoso3 \n4) contoso4 \n5) Other'
 read n
 case $n in
 1) fqdomain="contoso1.com";;
